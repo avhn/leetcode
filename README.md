@@ -5,6 +5,7 @@ File structure:
 
 ```
 ├── README.md
-├── Problem{No}
-│   ├── Code File(s)
+├── Problem{Number}
+│   ├── Code Files
+|   ├── README.md [Optional]
 ```
