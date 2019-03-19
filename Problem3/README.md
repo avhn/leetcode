@@ -1,4 +1,5 @@
-## 3. Longest Substring Without Repeating Characters
+## 3. Longest Substring Without Repeating Characters 
+[![Level](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem3)
 
 Given a string, find the length of the longest substring without repeating characters.
 
