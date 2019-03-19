@@ -1,22 +1,25 @@
 import java.util.*;
 
+
 class Solution {
 
-    /*
-     * Algorithm's time complexity is O(n) with sliding window technique.
+    /**
+     * Time complexity: O(n).
+     * Runtime: 21 ms, faster than 85.68% of Java online submissions for Longest Substring Without Repeating Characters.
+     * Memory Usage: 39 MB, less than 25.11% of Java online submissions for Longest Substring Without Repeating Characters.
      *
-     * LeetCode statistics:
-     * - Runtime: 21 ms, faster than 85.68% of Java online submissions for Longest Substring Without Repeating Characters.
-     * - Memory Usage: 39 MB, less than 25.11% of Java online submissions for Longest Substring Without Repeating Characters.
+     * @param s String to examine
+     * @return length of longest non-recurring substring
+     * @see Integer
      */
-
-    public int lengthOfLongestSubstring(String s) {
+    public Integer lengthOfLongestSubstring(String s) {
 
         Map<Character, Integer> hashTable = new HashMap<>();
         int i = 0, j = 0, len = 0;
 
         while (j < s.length()) {
             if (hashTable.containsKey(s.charAt(j))) {
+                // slide i
                 i = Math.max(i, hashTable.get(s.charAt(j)) + 1);
             }
 

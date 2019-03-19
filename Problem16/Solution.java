@@ -1,15 +1,18 @@
 import java.util.Arrays;
 
+
 class Solution {
 
-    /*
-     * Algorithm's time complexity is O(n^2).
+    /**
+     * Time complexity: O(n^2).
+     * Runtime: 7 ms, faster than 98.49% of Java online submissions for 3Sum Closest.
+     * Memory Usage: 37.8 MB, less than 68.81% of Java online submissions for 3Sum Closest.
      *
-     * LeetCode statistics:
-     * - Runtime: 7 ms, faster than 98.49% of Java online submissions for 3Sum Closest.
-     * - Memory Usage: 37.8 MB, less than 68.81% of Java online submissions for 3Sum Closest.
+     * @param nums an array of ints to work on
+     * @param target int
+     * @return the closest sum to target
+     * @see Integer
      */
-
     public Integer threeSumClosest(int[] nums, int target) {
 
         // li = lower index, hi = higher index

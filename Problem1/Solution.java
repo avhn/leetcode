@@ -3,14 +3,15 @@ import java.util.Map;
 
 class Solution {
 
-    /*
-     * Algorithm's time complexity is O(n).
+    /**
+     * Time complexity: O(n).
+     * Runtime: 3 ms, faster than 99.36% of Java online submissions for Two Sum.
+     * Memory Usage: 39 MB, less than 27.71% of Java online submissions for Two Sum.
      *
-     * LeetCode statistics:
-     * - Runtime: 3 ms, faster than 99.36% of Java online submissions for Two Sum.
-     * - Memory Usage: 39 MB, less than 27.71% of Java online submissions for Two Sum.
+     * @param nums an array of ints to search
+     * @param target int value to find
+     * @return a primitive array with the length of 2, contains 2 numbers' indexes
      */
-
     public int[] twoSum(int[] nums, int target) {
 
         // Map <number, index>
