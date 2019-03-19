@@ -1,19 +1,17 @@
 class Solution:
 
-    """
-    Algorithm's time complexity is O(n).
-
-    LeetCode:
-    - Runtime: 40 ms, faster than 79.69% of Python3 online submissions for Two Sum.
-    - Memory Usage: 14.2 MB, less than 6.64% of Python3 online submissions for Two Sum.
-    """
-
     def twoSum(self, nums, target):
 
         """
-        :type nums: iterable
-        :type target: int
-        :rtype: iterable
+        Time complexity: O(n).
+        Runtime: 40 ms, faster than 79.69% of Python3 online submissions for Two Sum.
+        Memory Usage: 14.2 MB, less than 6.64% of Python3 online submissions for Two Sum.
+
+        args:
+            nums: iterable
+            target: int
+
+        returns: iterable or None
         """
 
         # store pairs (number, index)
