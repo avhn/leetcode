@@ -16,14 +16,14 @@ Note:
 - Only the space character ' ' is considered as whitespace character.
 - Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. If the numerical value is out of the range of representable values, INT\_MAX (2^31 − 1) or INT\_MIN (−2^31) is returned.
 
-Example 1:
+**Example 1:**
 
 ```
 Input: "42"
 Output: 42
 ```
 
-Example 2:
+**Example 2:**
 
 ```
 Input: "   -42"
@@ -32,7 +32,7 @@ Explanation: The first non-whitespace character is '-', which is the minus sign.
              Then take as many numerical digits as possible, which gets 42.
 ```
 
-Example 3:
+**Example 3:**
 
 ```
 Input: "4193 with words"
@@ -40,7 +40,7 @@ Output: 4193
 Explanation: Conversion stops at digit '3' as the next character is not a numerical digit.
 ```
 
-Example 4:
+**Example 4:**
 
 ```
 Input: "words and 987"
@@ -49,7 +49,7 @@ Explanation: The first non-whitespace character is 'w', which is not a numerical
              digit or a +/- sign. Therefore no valid conversion could be performed.
 ```
 
-Example 5:
+**Example 5:**
 
 ```
 Input: "-91283472332"
