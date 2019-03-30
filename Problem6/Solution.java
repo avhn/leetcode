@@ -5,8 +5,8 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 16 ms, faster than 99.35% of Java online submissions for ZigZag Conversion.
-     * Memory Usage: 39.3 MB, less than 88.70% of Java online submissions for ZigZag Conversion.
+     * Runtime: 8 ms, faster than 98.01% of Java online submissions for ZigZag Conversion.
+     * Memory Usage: 40.6 MB, less than 41.90% of Java online submissions for ZigZag Conversion.
      *
      * @param s String to convert
      * @param numRows Decimal, number of rows
@@ -14,10 +14,11 @@ class Solution {
      * @see String
      */
     public String convert(String s, int numRows) {
+        if (numRows == 1 || s.length() < 2) return s;
+
         int currRow, i;
-        String result = "";
         ArrayList<String> Rows = new ArrayList<>();
-        for (currRow = 0; currRow < numRows; currRow++) Rows.add("");
+        for (currRow = 0; currRow < numRows; currRow++) Rows.add(""); // initialize Rows
 
         // calculate result in while loop
         i = 0; // i, index of current char at s
@@ -33,7 +34,8 @@ class Solution {
         }
 
         // retrieve result
-        for (currRow = 0; currRow < numRows; currRow++) result += Rows.get(currRow);
-        return result;
+        StringBuilder result = new StringBuilder();
+        for (currRow = 0; currRow < numRows; currRow++) result.append(Rows.get(currRow));
+        return result.toString();
     }
 }
