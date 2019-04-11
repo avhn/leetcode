@@ -1,5 +1,5 @@
 ## 8. String to Integer (atoi)
-[![Level](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem8)
+[![Medium](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem8)
 
 Implement `atoi` which converts a string to an integer.
 

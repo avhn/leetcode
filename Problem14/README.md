@@ -1,5 +1,5 @@
 ## 14. Longest Common Prefix
-[![Level](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem14)
+[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem14)
 
 Write a function to find the longest common prefix string amongst an array of strings.
 

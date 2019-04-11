@@ -1,5 +1,5 @@
 ## 19. Remove Nth Node From End of List
-[![Level](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem19)
+[![Medium](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem19)
 
 
 Given a linked list, remove the n-th node from the end of list and return its head.
