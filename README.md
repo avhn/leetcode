@@ -8,5 +8,4 @@ File structure:
 │   ├── README.md [Description of problem]
 │   ├── Code files
 ├── README.md
-├── static
 ```

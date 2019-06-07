@@ -5,7 +5,7 @@ Given a string containing digits from `2-9` inclusive, return all possible lette
 
 A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
-![Image](../static/Problem17.png)
+![Image](../../assets/Problem17.png)
 
 **Example:**
 ```
