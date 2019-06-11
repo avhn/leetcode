@@ -1,14 +1,72 @@
 class Solution {
+
     public int strStr(String haystack, String needle) {
-        return rabinKarp(haystack, needle);
+        return haystack.indexOf(needle);
+    }
+
+    /**
+     * Time Complexity: O(n) where n is length of haystack.
+     *
+     * @param haystack String to be searched
+     * @param needle String to search in haystack
+     * @return starting index of found substring or -1
+     */
+    private static int knuthMorrisPratt(String haystack, String needle) {
+
+        int N = haystack.length();
+        int M = needle.length();
+
+        if (M == 0) return 0;
+        else if (N == 0) return -1;
+
+        int[] lps = buildLps(needle);
+        for (int i = 0, j = 0; i < N; ) {
+            if (haystack.charAt(i) == needle.charAt(j)) {
+                i++;
+                j++;
+            }
+
+            if (j == M) {
+                // overflow, found
+                return i - j;
+            } else if (i < N && haystack.charAt(i) != needle.charAt(j)) {
+                // mismatch, update j
+                if (j > 0) j = lps[j - 1];
+                else i++;
+            }
+        }
+
+        return -1;
+    }
+
+    /**
+     * Helper method for knuthMorrisPratt.
+     *
+     * @return Longest prefix suffix array of pattern
+     */
+    private static int[] buildLps(String pattern) {
+        int[] lps = new int[pattern.length()];
+
+        for (int length = 0, i = 1; i < pattern.length(); ) {
+            if (pattern.charAt(i) == pattern.charAt(length)) {
+                length++;
+                lps[i] = length;
+                i++;
+            } else if (length > 0) {
+                length = lps[length - 1];
+            } else {
+                lps[i] = length;
+                i++;
+            }
+        }
+
+        return lps;
     }
 
     /**
      * Time Complexity:
      *      T(r * m), where r is number of hash matches and m is length of substring.
      *      O(n * m), where m and n are length of strings.
-     * Runtime: 2 ms, faster than 81.49% of Java online submissions for Implement strStr().
-     * Memory Usage: 35.2 MB, less than 98.52% of Java online submissions for Implement strStr().
      *
      * @param haystack String to be searched
      * @param needle String to search in haystack
@@ -38,4 +96,5 @@ class Solution {
         }
         return -1;
     }
+
 }
