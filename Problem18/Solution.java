@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n^3).
-     * Runtime: 4 ms, faster than 99.54% of Java online submissions for 4Sum.
-     * Memory Usage: 38.2 MB, less than 87.62% of Java online submissions for 4Sum.
      *
      * @param nums array of decimal numbers
      * @param target target value

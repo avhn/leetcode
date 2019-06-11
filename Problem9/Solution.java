@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n) where n is number of digits.
-     * Runtime: 70 ms, faster than 99.35% of Java online submissions for Palindrome Number.
-     * Memory Usage: 40.5 MB, less than 62.55% of Java online submissions for Palindrome Number.
      *
      * @param x Integer to check if palindrome
      * @return Boolean indicates if param is palindrome or not

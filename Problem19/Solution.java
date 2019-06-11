@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 5 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
-     * Memory Usage: 37.9 MB, less than 52.56% of Java online submissions for Remove Nth Node From End of List.
      *
      * Definition for singly-linked list.
      * public class ListNode {
@@ -44,4 +42,5 @@ class Solution {
 
         return head;
     }
+
 }

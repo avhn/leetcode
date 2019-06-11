@@ -6,8 +6,6 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 20 ms, faster than 88.74% of Java online submissions for Longest Substring Without Repeating Characters.
-     * Memory Usage: 39.1 MB, less than 23.93% of Java online submissions for Longest Substring Without Repeating Characters.
      *
      * @param s String to examine
      * @return length of longest non-recurring substring

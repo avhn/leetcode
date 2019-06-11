@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time Complexity: O(4^n / sqrt(n)), dataset increases in sync with Catalan Numbers.
-     * Runtime: 1 ms, faster than 97.31% of Java online submissions for Generate Parentheses.
-     * Memory Usage: 37.3 MB, less than 97.23% of Java online submissions for Generate Parentheses.
      *
      * Using DP approach:
      * DP[n] = [for j = 0 to n do ['(' + DP[j] + ')'] * DP[n - j - 1]]
@@ -34,4 +32,5 @@ class Solution {
         }
         return DP.get(n);
     }
+
 }

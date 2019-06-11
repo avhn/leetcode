@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time complexity: O(n^2).
-     * Runtime: 7 ms, faster than 98.49% of Java online submissions for 3Sum Closest.
-     * Memory Usage: 37.8 MB, less than 68.81% of Java online submissions for 3Sum Closest.
      *
      * @param nums an array of ints to work on
      * @param target int

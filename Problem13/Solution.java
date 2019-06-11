@@ -21,8 +21,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n).
-     * Runtime: 3 ms, faster than 100.00% of Java online submissions for Roman to Integer.
-     * Memory Usage: 37.2 MB, less than 35.04% of Java online submissions for Roman to Integer.
      *
      * @param s String to convert
      * @return int value of s

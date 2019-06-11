@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n^2).
-     * Runtime: 30 ms, faster than 97.65% of Java online submissions for 3Sum.
-     * Memory Usage: 48.1 MB, less than 85.11% of Java online submissions for 3Sum.
      *
      * @param nums array of integers to examine
      * @return list of lists contains three decimal numbers and no dublicates

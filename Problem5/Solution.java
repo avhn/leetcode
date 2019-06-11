@@ -20,10 +20,7 @@ class Solution {
 
     /**
      * Find longest palindrome at given String.
-     *
      * Time complexity: O(n^2).
-     * Runtime: 6 ms, faster than 99.19% of Java online submissions for Longest Palindromic Substring.
-     * Memory Usage: 37.4 MB, less than 92.96% of Java online submissions for Longest Palindromic Substring.
      *
      * @param s String to find longest palindrome
      * @return longest palindrome in s

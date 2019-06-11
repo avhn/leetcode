@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n).
-     * Runtime: 1 ms, faster than 99.68% of Java online submissions for Valid Parentheses.
-     * Memory Usage: 35.6 MB, less than 37.02% of Java online submissions for Valid Parentheses.
      *
      * @param s String to examine parentheses in
      * @return boolean value indicating validity of s
@@ -27,4 +25,5 @@ class Solution {
         }
         return stack.isEmpty();
     }
+
 }

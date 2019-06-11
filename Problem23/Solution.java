@@ -6,8 +6,6 @@ class Solution {
 
     /**
      * Time Complexity: O(nlogn).
-     * Runtime: 4 ms, faster than 92.39% of Java online submissions for Merge k Sorted Lists.
-     * Memory Usage: 37.8 MB, less than 96.32% of Java online submissions for Merge k Sorted Lists.
      *
      * Definition for singly-linked list.
      * public class ListNode {

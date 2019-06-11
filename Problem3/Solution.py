@@ -4,8 +4,6 @@ class Solution:
 
         """
         Time complexity: O(n).
-        Runtime: 76 ms, faster than 89.92% of Python3 online submissions for Longest Substring Without Repeating Characters.
-        Memory Usage: 13.2 MB, less than 5.31% of Python3 online submissions for Longest Substring Without Repeating Characters.
 
         args:
             s: str

@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n), where n is the number of roman characters.
-     * Runtime: 3 ms, faster than 100.00% of Java online submissions for Integer to Roman.
-     * Memory Usage: 37.5 MB, less than 100.00% of Java online submissions for Integer to Roman.
      *
      * @param num decimal to convert
      * @return Roman number

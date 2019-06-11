@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 3 ms, faster than 99.36% of Java online submissions for Two Sum.
-     * Memory Usage: 39 MB, less than 27.71% of Java online submissions for Two Sum.
      *
      * @param nums an array of ints to search
      * @param target int value to find

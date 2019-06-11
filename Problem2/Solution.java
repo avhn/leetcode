@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time complexity: O(logn) where n is the number of digits at biggest node.
-     * Runtime: 19 ms, faster than 99.14% of Java online submissions for Add Two Numbers.
-     * Memory Usage: 48.1 MB, less than 27.01% of Java online submissions for Add Two Numbers.
      *
      * Definition for singly-linked list.
      * public class ListNode {

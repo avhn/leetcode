@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 2 ms, faster than 99.83% of Java online submissions for Container With Most Water.
-     * Memory Usage: 40.7 MB, less than 13.67% of Java online submissions for Container With Most Water.
      *
      * @param height Array of heights at indexes
      * @return maximum area

@@ -15,8 +15,6 @@ class Solution {
 
     /**
      * Time Complexity: O(4^n), where n is length of digits.
-     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Letter Combinations of a Phone Number.
-     * Memory Usage: 37 MB, less than 89.31% of Java online submissions for Letter Combinations of a Phone Number.
      *
      * @param digits digits of buttons
      * @return combinations as String values

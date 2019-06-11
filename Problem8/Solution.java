@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time complexity O(n).
-     * Runtime: 14 ms, faster than 99.86% of Java online submissions for String to Integer (atoi).
-     * Memory Usage: 38.4 MB, less than 22.66% of Java online submissions for String to Integer (atoi).
      *
      * @param str String to convert to Integer
      * @return Integer value, between -2**31 <= value <= 2**31. value == 0 mostly means conversion unsuccessful.

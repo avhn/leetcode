@@ -5,8 +5,6 @@ class Solution {
 
     /**
      * Time complexity: O(n).
-     * Runtime: 8 ms, faster than 98.01% of Java online submissions for ZigZag Conversion.
-     * Memory Usage: 40.6 MB, less than 41.90% of Java online submissions for ZigZag Conversion.
      *
      * @param s String to convert
      * @param numRows Decimal, number of rows

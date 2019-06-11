@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n).
-     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Two Sorted Lists.
-     * Memory Usage: 37 MB, less than 97.90% of Java online submissions for Merge Two Sorted Lists.
      *
      * Definition for singly-linked list.
      * public class ListNode {

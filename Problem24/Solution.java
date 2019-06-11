@@ -2,8 +2,6 @@ class Solution {
 
     /**
      * Time Complexity: O(n).
-     * Runtime: 2 ms, faster than 99.97% of Java online submissions for Swap Nodes in Pairs.
-     * Memory Usage: 36.8 MB, less than 72.50% of Java online submissions for Swap Nodes in Pairs.
      *
      * Definition for singly-linked list.
      * public class ListNode {
