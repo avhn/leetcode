@@ -1,5 +1,4 @@
 ## 26. Remove Duplicates from Sorted Array
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem26)
 
 Given a sorted array *nums*, remove the duplicates ***in-place*** such that each element appear only *once* and return the new length.
 

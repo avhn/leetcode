@@ -1,5 +1,4 @@
 ## 13. Roman to Integer
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem13)
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 ```

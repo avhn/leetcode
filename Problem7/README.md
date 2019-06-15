@@ -1,6 +1,4 @@
 ## 7. Reverse Integer
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem7)
-
 
 Given a 32-bit signed integer, reverse digits of an integer.
 

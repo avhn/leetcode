@@ -1,5 +1,4 @@
 ## 23. Merge k Sorted Lists
-[![Hard](https://img.shields.io/badge/-Hard-red.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem23)
 
 Merge *k* sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 

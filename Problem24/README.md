@@ -1,6 +1,4 @@
 ## 24. Swap Nodes in Pairs
-[![Medium](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem24)
-
 
 Given a linked list, swap every two adjacent nodes and return its head.
 

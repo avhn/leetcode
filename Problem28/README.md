@@ -1,5 +1,4 @@
 ## 28. Implement strStr()
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem28)
 
 Implement` strStr()`.
 

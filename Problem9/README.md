@@ -1,6 +1,4 @@
 ## 9. Palindrome Number
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem9)
-
 
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 

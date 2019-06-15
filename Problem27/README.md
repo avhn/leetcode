@@ -1,5 +1,4 @@
 ## 27. Remove Element
-[![Easy](https://img.shields.io/badge/-Easy-brightgreen.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem27)
 
 Given an array *nums* and a value *val*, remove all instances of that value ***in-place*** and return the new length.
 

@@ -1,5 +1,4 @@
 ## 17. Letter Combinations of a Phone Number
-[![Medium](https://img.shields.io/badge/-Medium-important.svg)](https://github.com/Anaxilaus/LeetCode/tree/master/Problem17)
 
 Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent.
 
