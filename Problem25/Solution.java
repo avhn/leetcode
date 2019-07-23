@@ -1,5 +1,18 @@
 class Solution {
 
+    /**
+     * Helper method for reverseKGroup.
+     * Reverse a linked sequence considering where end points too.
+     *
+     * For example:
+     *  [ start -> a -> b -> c -> end -> d ]
+     *  [ end -> c -> b -> a -> start -> d ]
+     *
+     * @param start ListNode
+     * @param end ListNode
+     * @return parameter end
+     * @see ListNode
+     */
     private ListNode reverse(ListNode start, ListNode end) {
         ListNode head = end.next;
         ListNode current = start;
