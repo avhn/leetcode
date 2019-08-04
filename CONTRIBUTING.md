@@ -1,13 +1,15 @@
+## Contributing
+
 ### File structure
 
-```
-├── Problem# [e.g. "Problem444"]
-│   ├── README.md [Description of problem]
-│   ├── Code files
+<pre>
+├── Problem# <i>[e.g. "Problem444"]</i>
+│   ├── README.md <i>[Description of problem]</i>
+│   ├── code files
+├── assets
 ├── README.md
 ├── CONTRIBUTING.md
-```
-
+</pre>
 
 ### Adding problems
 
@@ -26,3 +28,5 @@ $ git commit
 ```
 
 Now, you can make a pull request.
+
+

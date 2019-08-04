@@ -4,7 +4,7 @@ Given n non-negative integers a1, a2, ..., an , where each represents a point at
 
 **Note:** You may not slant the container and n is at least 2.
 
-![Image](../../assets/Problem11.jpg) 
+![image](../assets/Problem11.jpg) 
 
 The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 
