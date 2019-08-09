@@ -3,7 +3,7 @@
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 For example, the following two linked lists:
-![image 1](../assets/Problem160.png)
+![image 1](../assets/Problem160.png)<br/>
 begin to intersect at node c1.
 
 
