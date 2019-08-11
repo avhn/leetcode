@@ -1,6 +1,6 @@
 ## 175. Combine Two Tables
 
-[`SQL Schema >`](../../assets/Problem175.sql)
+[`SQL Schema >`](../../assets/175.sql)
 
 Table: `Person`
 <pre>

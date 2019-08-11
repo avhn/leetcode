@@ -2,7 +2,7 @@
 
 Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's triangle.
 
-![pascal's triangle](../../assets/Problem118.gif)<br/>
+![pascal's triangle](../../assets/118.gif)<br/>
 <sup>In Pascal's triangle, each number is the sum of the two numbers directly above it.</sup>
 
 **Example:**

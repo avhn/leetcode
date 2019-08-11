@@ -1,6 +1,6 @@
 ## 197. Rising Temperature
 
-[`SQL Schema >`](../../assets/Problem197.sql)
+[`SQL Schema >`](../../assets/197.sql)
 
 Given a `Weather` table, write a SQL query to find all dates' Ids with higher temperature compared to its previous (yesterday's) dates.
 <pre>

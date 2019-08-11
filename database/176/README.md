@@ -1,6 +1,6 @@
 ## 176. Second Highest Salary
 
-[`SQL Schema >`](../../assets/Problem176.sql)
+[`SQL Schema >`](../../assets/176.sql)
 
 Write a SQL query to get the second highest salary from the `Employee` table.
 
