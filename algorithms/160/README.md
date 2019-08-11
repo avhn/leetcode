@@ -3,14 +3,14 @@
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 For example, the following two linked lists:
-![image 1](../assets/Problem160.png)<br/>
+![image 1](../../assets/Problem160.png)<br/>
 begin to intersect at node c1.
 
 
 
 **Example 1:**
 
-![image 2](../assets/Problem160-2.png)
+![image 2](../../assets/Problem160-2.png)
 
 <pre>
 <b>Input:</b> intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
@@ -20,7 +20,7 @@ begin to intersect at node c1.
 
 **Example 2:**
 
-![image 3](../assets/Problem160-3.png)
+![image 3](../../assets/Problem160-3.png)
 
 <pre>
 <b>Input:</b> intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
@@ -30,7 +30,7 @@ begin to intersect at node c1.
 
 **Example 3:**
 
-![image 4](../assets/Problem160-4.png)
+![image 4](../../assets/Problem160-4.png)
 
 <pre>
 <b>Input:</b> intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2

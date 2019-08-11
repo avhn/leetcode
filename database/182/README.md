@@ -1,6 +1,6 @@
 ## 182. Duplicate Emails
 
-[`SQL Schema >`](../assets/Problem182.sql)
+[`SQL Schema >`](../../assets/Problem182.sql)
 
 Write a SQL query to find all duplicate emails in a table named `Person`.
 

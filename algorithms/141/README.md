@@ -13,7 +13,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 <b>Explanation:</b> There is a cycle in the linked list, where tail connects to the second node.
 </pre>
 
-![example 1](../assets/Problem141.png)
+![example 1](../../assets/Problem141.png)
 <br/>
 
 **Example 2:**
@@ -23,7 +23,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 <b>Explanation:</b> There is a cycle in the linked list, where tail connects to the first node.
 </pre>
 
-![example 1](../assets/Problem141-2.png)
+![example 1](../../assets/Problem141-2.png)
 <br/>
 
 **Example 3:**
@@ -33,7 +33,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 <b>Explanation:</b> There is no cycle in the linked list.
 </pre>
 
-![example 1](../assets/Problem141-3.png)
+![example 1](../../assets/Problem141-3.png)
 <br/>
 
 **Follow up:**

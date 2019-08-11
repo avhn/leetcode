@@ -1,16 +1,5 @@
 ## Contributing
 
-### File structure
-
-<pre>
-├── Problem# <i>[e.g. "Problem444"]</i>
-│   ├── README.md <i>[Description of problem]</i>
-│   ├── code files
-├── assets
-├── README.md
-├── CONTRIBUTING.md
-</pre>
-
 ### Adding problems
 
 Use orphan branches to commit freely and keep main branch clean.

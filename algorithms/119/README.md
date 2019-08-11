@@ -4,7 +4,7 @@ Given a non-negative index *k* where *k* ≤ 33, return the *k*<sup>th</sup> ind
 
 Note that the row index starts from 0.
 
-![pascal's triangle](../assets/Problem119.gif)<br/>
+![pascal's triangle](../../assets/Problem119.gif)<br/>
 <sup>In Pascal's triangle, each number is the sum of the two numbers directly above it.</sup>
 
 **Example:**

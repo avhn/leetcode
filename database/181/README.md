@@ -1,6 +1,6 @@
 ## 181. Employees Earning More Than Their Managers
 
-[`SQL Schema`](../assets/Problem181.sql)
+[`SQL Schema`](../../assets/Problem181.sql)
 
 The `Employee` table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id.
 
