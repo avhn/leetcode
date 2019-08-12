@@ -3,14 +3,8 @@ import java.lang.Math;
 class Solution {
 
     /**
-     * Find excel sheet's column title.
-     *
-     * Time complexity: O(log n).
-     * Space complexity: O(1).
-     *
-     * @param n column number
-     * @return title of nth column
-     * @see String
+     * Time complexity: O(log n)
+     * Space complexity: O(1)
      */
     public String convertToTitle(int n) {
         StringBuilder result = new StringBuilder();

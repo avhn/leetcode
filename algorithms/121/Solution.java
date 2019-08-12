@@ -1,17 +1,11 @@
 class Solution {
 
     /**
-     * Find maximum profit for stocks in the given price array.
-     *
-     * Time complexity: O(n), where n is length of the array.
-     * Space complexity: O(1).
-     *
-     * @param prices array
-     * @return maximum profit
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
     public int maxProfit(int[] prices) {
         if (prices.length < 2) return 0;
-
         int min = prices[0];
         int profit = 0;
         for (int i = 1; i < prices.length; i++) {

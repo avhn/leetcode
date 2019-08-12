@@ -1,13 +1,8 @@
 class Solution {
 
     /**
-     * Find maximum profit for buying and selling stocks consecutively.
-     *
-     * Time complexity: O(n), where n is length of array.
-     * Space complexity: O(1).
-     *
-     * @param prices array
-     * @return maximum profit
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
     public int maxProfit(int[] prices) {
         int profit = 0;

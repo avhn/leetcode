@@ -1,21 +1,17 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
 class Solution {
 
     /**
-     * Find if the binary tree is symmetric.
-     *
-     * Time complexity: O(n), where n is size of the binary tree.
-     * Space complexity: O(n).
-     *
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
-     *
-     * @param root binary tree
-     * @return boolean indicating whether binary tree is symmetric
+     * Time and space complexity: O(n)
      */
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;

@@ -1,16 +1,10 @@
 class Solution {
 
     /**
-     * Binary search smaller array to find median.
-     *
-     * Time Complexity: O(log(min(A, B))).
-     *
-     * @param A array
-     * @param B array
-     * @return median
+     * Time complexity: O(log(min(A, B))), where A and B are used as lengths of themselves
+     * Space complexity: O(1)
      */
     public double findMedianSortedArrays(int[] A, int[] B) {
-
         // make B bigger than A
         if (A.length > B.length) {
             return findMedianSortedArrays(B, A);

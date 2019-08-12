@@ -1,11 +1,8 @@
 class Solution {
 
     /**
-     * Time Complexity: O(n), where n is the number of roman characters.
-     *
-     * @param num decimal to convert
-     * @return Roman number
-     * @see String
+     * Time Complexity: O(n), where n is the number of roman characters
+     * Space complexity: O(1)
      */
     public String intToRoman(int num) {
         int[] Numeric = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

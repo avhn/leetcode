@@ -1,21 +1,15 @@
 import java.util.*;
 
-
 class Solution {
 
     /**
-     * Time Complexity: O(n^3).
-     *
-     * @param nums array of decimal numbers
-     * @param target target value
-     * @return fourSums
-     * @see List
+     * Time complexity: O(n^3), where n is length of the array
+     * Space complexity: O(n), note that every value is unique in the array
      */
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums == null || nums.length < 4) return result;
         Arrays.sort(nums);
-
         int len = nums.length;
         for (int a = 0; a < len - 3;  a++) {
             // duplicate

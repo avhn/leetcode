@@ -1,13 +1,10 @@
 class Solution {
 
     /**
-     * Time Complexity: O(n) where n is number of digits.
-     *
-     * @param x Integer to reverse
-     * @return reversed integer
+     * Time complexity: O(n), where n is number of digits in the decimal number
+     * Space complexity: O(1)
      */
     public int reverse(int x) {
-
         double result = 0;
         while (x != 0) {
             result *= 10;
@@ -18,7 +15,6 @@ class Solution {
                 return 0;
             }
         }
-
         return (int) result;
     }
 

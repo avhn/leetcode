@@ -5,17 +5,12 @@ class Solution {
     }
 
     /**
-     * Time Complexity: O(n) where n is length of haystack.
-     *
-     * @param haystack String to be searched
-     * @param needle String to search in haystack
-     * @return starting index of found substring or -1
+     * Time Complexity: O(n) where n is length of haystack
+     * Space complexity: O(m), where m is length of needle
      */
     private static int knuthMorrisPratt(String haystack, String needle) {
-
         int N = haystack.length();
         int M = needle.length();
-
         if (M == 0) return 0;
         else if (N == 0) return -1;
 
@@ -25,7 +20,6 @@ class Solution {
                 i++;
                 j++;
             }
-
             if (j == M) {
                 // overflow, found
                 return i - j;
@@ -35,18 +29,14 @@ class Solution {
                 else i++;
             }
         }
-
         return -1;
     }
 
     /**
-     * Helper method for knuthMorrisPratt.
-     *
-     * @return Longest prefix suffix array of pattern
+     * Helper method for KMP.
      */
     private static int[] buildLps(String pattern) {
         int[] lps = new int[pattern.length()];
-
         for (int length = 0, i = 1; i < pattern.length(); ) {
             if (pattern.charAt(i) == pattern.charAt(length)) {
                 length++;
@@ -59,18 +49,14 @@ class Solution {
                 i++;
             }
         }
-
         return lps;
     }
 
     /**
-     * Time Complexity:
-     *      T(r * m), where r is number of hash matches and m is length of substring.
-     *      O(n * m), where m and n are length of strings.
-     *
-     * @param haystack String to be searched
-     * @param needle String to search in haystack
-     * @return starting index of found substring or -1
+     * Time complexity:
+     *      T(r * m), where r is number of hash matches and m is length of substring
+     *      O(n * m), where m and n are length of strings
+     * Space complexity: O(1)
      */
     private static int rabinKarp(String haystack, String needle) {
         if (needle.isEmpty()) return 0;
@@ -80,7 +66,6 @@ class Solution {
         int sum = 0;
         int currentSum = 0;
         int location, i;
-
         for (int m = 0; m < haystack.length(); m++) {
             currentSum += (int) haystack.charAt(m);
             if (m > len - 1) currentSum -= (int) haystack.charAt(m - len);
@@ -88,7 +73,6 @@ class Solution {
 
             if (currentSum == sum && m >= len - 1 ) {
                 location = m - len + 1;
-
                 for (i = 0; i < len; i++) {
                     if (needle.charAt(i) != haystack.charAt(location + i)) break;
                 } if (i == len) return location;
@@ -96,5 +80,4 @@ class Solution {
         }
         return -1;
     }
-
 }

@@ -3,10 +3,10 @@ import java.util.HashSet;
 class Solution {
 
     /**
-     * Maximum 16 iterations for positive integers,
-     * and for every iteration, we calculate sum of maximum of 10 digits.
-     *
      * Time and space complexity: O(1)
+     *
+     * Maximum 16 iterations for positive integers, and for every iteration,
+     * we calculate sum of maximum of 10 digits.
      */
     public boolean isHappy(int n) {
         return withFloydCycleDetection(n);
@@ -32,7 +32,7 @@ class Solution {
     }
 
     /**
-     * Calculate sum of a decimal's every digit's squared values.
+     * Calculate sum of a decimal's every digits' squared values.
      *
      * Time and space complexity: O(1)
      */

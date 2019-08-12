@@ -1,24 +1,19 @@
 import java.lang.Math;
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
 class Solution {
 
     /**
-     * Find max depth of the given binary tree.
-     *
-     * Time complexity: O(n), where n is size of the binary tree.
-     * Space complexity: O(n).
-     *
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
-     *
-     *
-     * @param root binary tree
-     * @return depth of the given binary tree
+     * Time and space complexity: O(n)
      */
     public int maxDepth(TreeNode root) {
         if (root == null) return 0;

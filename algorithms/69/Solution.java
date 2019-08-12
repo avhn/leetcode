@@ -1,21 +1,15 @@
 class Solution {
 
     /**
-     * Find sqrt with binary search method.
-     *
-     * Time complexity: O(log n), where n is the given number.
-     * Space complexity: O(1).
-     *
-     * @param x decimal
-     * @return rounded value of square root of x
+     * Time complexity: O(log n)
+     * Space complexity: O(1)
      */
-    public int mySqrt(int x) {
+    public int mySqrt(int n) {
         long left = 1;
-        long right = x;
+        long right = n;
         long mid = (left + right) / 2;
-
-        while (!(mid * mid <= x && x < (mid + 1) * (mid + 1))) {
-            if (x < mid * mid) {
+        while (!(mid * mid <= n && n < (mid + 1) * (mid + 1))) {
+            if (n < mid * mid) {
                 right = mid;
             } else {
                 left = mid;

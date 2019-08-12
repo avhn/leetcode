@@ -1,13 +1,8 @@
 class Solution {
 
     /**
-     * Rotate an array in-place to right.
-     *
      * Time complexity: O(n), where n is length of the array.
-     * Space complexity: O(1).
-     *
-     * @param nums array
-     * @param k steps of the rotation
+     * Space complexity: O(1)
      */
     public void rotate(int[] nums, int k) {
         int len = nums.length;

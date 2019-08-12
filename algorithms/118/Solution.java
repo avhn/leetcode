@@ -4,14 +4,7 @@ import java.util.ArrayList;
 class Solution {
 
     /**
-     * Generate rows for Pascal's triangle.
-     *
-     * Time complexity: O(n^2), where n is number of the rows.
-     * Space complexity: O(^2).
-     *
-     * @param numRows number of the rows to create
-     * @return generated rows as lists of a list
-     * @see List
+     * Time and space complexity: O(n^2)
      */
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList();

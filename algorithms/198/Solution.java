@@ -1,13 +1,7 @@
 class Solution {
 
     /**
-     * Find maximum profit with DP.
-     *
-     * Time complexity: O(n), where n is length of array.
-     * Space complexity: O(n).
-     *
-     * @param nums array
-     * @return maximum profit
+     * Time and space complexity: O(n)
      */
     public int rob(int[] nums) {
         int len = nums.length;

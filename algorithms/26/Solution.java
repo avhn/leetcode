@@ -1,11 +1,7 @@
 class Solution {
 
     /**
-     * Time complexity: O(n).
-     * Space complexity: O(n).
-     *
-     * @param nums array of numbers
-     * @return length of modified array
+     * Time and space complexity: O(n)
      */
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;

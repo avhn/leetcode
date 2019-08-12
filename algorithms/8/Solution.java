@@ -1,10 +1,8 @@
 class Solution {
 
     /**
-     * Time complexity O(n).
-     *
-     * @param str String to convert to Integer
-     * @return Integer value, between -2**31 <= value <= 2**31. value == 0 mostly means conversion unsuccessful.
+     * Time complexity: O(n)
+     * Space complexity: O(n), we clone String to char[]
      */
     public int myAtoi(String str) {
         double result = 0;
@@ -23,13 +21,11 @@ class Solution {
             } else {
                 break;
             }
-
             if (firstIter) firstIter = false;
         }
 
         if (result <= Integer.MAX_VALUE) {
             return (int)(sign * result);
-
         } else {
             if (sign < 0) return Integer.MIN_VALUE;
             else return Integer.MAX_VALUE;

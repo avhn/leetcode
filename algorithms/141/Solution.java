@@ -1,26 +1,21 @@
 import java.util.HashSet;
 
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 
 public class Solution {
 
     /**
-     * Find if given linked list has a cycle.
-     *
-     * Time complexity: O(n), where n is size of the linked list.
-     * Space complexity: O(n).
-     *
-     * Definition for singly-linked list.
-     * class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) {
-     *         val = x;
-     *         next = null;
-     *     }
-     * }
-     *
-     * @param head linked list
-     * @return boolean indicating if linked list has a cycle
+     * Time and space complexity: O(n)
      */
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set = new HashSet<>();

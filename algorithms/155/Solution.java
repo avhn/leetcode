@@ -1,10 +1,7 @@
 import java.util.Stack;
 
 /**
- * Store minimum value in the stack.
- *
- * Time complexity of all methods: O(1).
- * Space complexity: O(n), where n is number of elements in the array.
+ * Time and space complexity of all methods: O(1)
  */
 class MinStack {
     private Stack<Integer> stack;

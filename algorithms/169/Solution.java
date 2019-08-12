@@ -1,13 +1,8 @@
 class Solution {
 
     /**
-     * Find majority element using Boyer-Moore algorithm.
-     *
-     * Time complexity: O(n), where n is length of the array.
-     * Space complexity: O(1).
-     *
-     * @param nums array
-     * @return majority element
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
     public int majorityElement(int[] nums) {
         int m = 0;  // current element

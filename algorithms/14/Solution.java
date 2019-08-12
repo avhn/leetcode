@@ -1,21 +1,16 @@
 class Solution {
 
     /**
-     * Time Complexity: O(S), where S is total number of characters in the array.
-     *
-     * @param strs array of String objects
-     * @return longest common prefix of the array
-     * @see String
+     * Time complexity: O(n), where n is total number of characters in the array
+     * Space complexity: O(1)
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) return "";
-
         boolean Continue = true;
         Character current;
         int i = 0;
         while (Continue) {
             current = null;
-
             for (String str : strs) {
                 if (i == str.length()) {
                     Continue = false;

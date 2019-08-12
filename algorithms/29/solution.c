@@ -12,22 +12,18 @@ int unsignedDivision(unsigned int dividend, unsigned int divisor) {
   while (sum != INT_MAX + 1 && sum + sum <= dividend) {
     sum += sum;
     quotient += quotient;
-    
     /*
      sum <<= 1;
      quotient <<= 1;
      */
   }
-  
   int diff = dividend - sum;
   return quotient + unsignedDivision(diff, divisor);
 }
 
 /**
- * Perform division of integers without using bigger sized datatypes
- * and multiplication, division, mod operators.
- *
- * Time complexity: log(dividend).
+ * Time complexity: O(log(dividend))
+ * Space complexity: O(1)
  */
 int divide(int dividend, int divisor){
   if (divisor == 1) return dividend;
@@ -38,6 +34,5 @@ int divide(int dividend, int divisor){
   int result = unsignedDivision(udividend, udivisor);
   int positive = (dividend < 0 && divisor < 0)
     || (dividend > 0 && divisor > 0);
-  
   return (positive) ? result : -result;
 }

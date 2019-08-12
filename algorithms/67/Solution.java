@@ -1,15 +1,8 @@
 class Solution {
 
     /**
-     * Add two binary numbers in String format.
-     *
-     * Time complexity: O(n), where n is length of longest string.
-     * Space complexity: O(1).
-     *
-     * @param a binary number as String
-     * @param b binary number as String
-     * @return sum of a and b
-     * @see String
+     * Time complexity: O(n), where n is length of longest string
+     * Space complexity: O(1)
      */
     public String addBinary(String a, String b) {
         StringBuilder result = new StringBuilder();
@@ -17,7 +10,6 @@ class Solution {
         int sum;
         int i = a.length() - 1;
         int j = b.length() - 1;
-
         while (0 <= i || 0 <= j || 0 < carry) {
             sum = carry;
             sum += 0 <= i && a.charAt(i--) == '1' ? 1 : 0;

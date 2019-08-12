@@ -4,14 +4,8 @@ import java.util.ArrayList;
 class Solution {
 
     /**
-     * Return kth row in the Pascal's triangle.
-     *
-     * Time complexity: O(k^2), where k is the row to return.
-     * Space complexity: O(k).
-     *
-     * @param k row of Pascal's triangle to return
-     * @return list
-     * @see List
+     * Time complexity: O(k^2)
+     * Space complexity: O(k)
      */
     public List<Integer> getRow(int k) {
         List<Integer> previous;

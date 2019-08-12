@@ -1,25 +1,26 @@
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
 
 class Solution {
 
     /**
-     * Time Complexity: O(nlogn).
+     * Priority queue takes log(n) times for every poll.
+     * We do this n times, where n is total number of nodes in lists.
      *
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) { val = x; }
-     * }
-     *
-     * @param lists array of linked lists
-     * @return head of merged linked list
+     * Time complexity: O(nlogn)
+     * Space complexity: O(n)
      */
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) return null;
-
         PriorityQueue<ListNode> queue = new PriorityQueue<ListNode>(lists.length, new Comparator<ListNode>() {
                 @Override
                 public int compare(ListNode o1, ListNode o2) {

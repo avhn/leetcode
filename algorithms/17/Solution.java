@@ -14,19 +14,13 @@ class Solution {
     };
 
     /**
-     * Time Complexity: O(4^n), where n is length of digits.
-     *
-     * @param digits digits of buttons
-     * @return combinations as String values
-     * @see List
+     * Time and space complexity: O(4^n)
      */
     public List<String> letterCombinations(String digits) {
         ArrayList<String> result = new ArrayList<>();
-
         char[] charArray = digits.toCharArray();
         for (int i = 0; i < charArray.length; i++) {
             int button = charArray[i] - '2';
-
             if (i == 0) {
                 // initialization
                 for (int j = 0; j < buttonMap[button].length; j++) {
@@ -44,7 +38,6 @@ class Solution {
                 result = newResult;
             }
         }
-
         return result;
     }
 }

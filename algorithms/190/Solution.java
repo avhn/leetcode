@@ -1,13 +1,7 @@
 public class Solution {
 
     /**
-     * Reverse bits of an integer.
-     *
-     * Time complexity: O(1).
-     * Space complexity O(1).
-     *
-     * @param n number to reverse
-     * @return reversed number
+     * Time and space complexity: O(1)
      */
     public int reverseBits(int n) {
         int result = 0;

@@ -1,13 +1,7 @@
 public class Solution {
 
     /**
-     * Find hamming weight of the number.
-     *
-     * Time complexity: O(1).
-     * Space complexity: O(1).
-     *
-     * @param n number
-     * @return hamming weight of n
+     * Time and space complexity: O(1)
      */
     public int hammingWeight(int n) {
         int result = 0;

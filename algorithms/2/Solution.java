@@ -1,22 +1,20 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+
 class Solution {
 
     /**
-     * Time complexity: O(logn) where n is the number of digits at biggest node.
-     *
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) { val = x; }
-     * }
-     *
-     * @param l1 ListNode
-     * @param l2 ListNode
-     * @return A ListNode represents sum of l1 and l2
+     * Time complexity: O(log n), where n is the number of digits at longest list
+     * Space complexity: O(1)
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode root = null, current = null;
-
         int sum, val, carry = 0;
         while (l1 != null || l2 != null) {
             sum = carry;
@@ -40,7 +38,6 @@ class Solution {
                 current = current.next;
             }
         }
-
         if (carry > 0) current.next = new ListNode(carry);
         return root;
     }

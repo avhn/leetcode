@@ -1,12 +1,7 @@
 class Solution {
 
     /**
-     * Time complexity: O(S * P) where S is length of string
-     *  and P is length of pattern.
-     *
-     * @param string String
-     * @param pattern String
-     * @return boolean
+     * Time and space complexity: O(S * P), where S is length of string and P is length of pattern
      */
     public boolean isMatch(String string, String pattern) {
         boolean[][] DP = new boolean[string.length() + 1][pattern.length() + 1];

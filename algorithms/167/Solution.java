@@ -1,16 +1,8 @@
 class Solution {
 
     /**
-     * Find two numbers in an ascending array those
-     * add up to the given target using sliding window
-     * technique.
-     *
-     * Time complexity: O(n), where n is length of the array.
-     * Space complexity: O(1).
-     *
-     * @param numbers sorted array
-     * @param target decimal number
-     * @return found two indexes as an array
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
     public int[] twoSum(int[] numbers, int target) {
         int l = 0;

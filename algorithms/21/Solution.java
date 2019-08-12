@@ -1,23 +1,20 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+
 class Solution {
 
     /**
-     * Time Complexity: O(n).
-     *
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) { val = x; }
-     * }
-     *
-     * @param l1 ListNode as head of linked list to merge
-     * @param l2 ListNode as head of linked list to merge
-     * @return head of the merged linked list
-     * @see ListNode
+     * Time complexity: O(n), where n is length of the shorter list
+     * Space complexity: O(1)
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = null, previous = null, current;
-
         while (l1 != null || l2 != null) {
             // select current node to insert,
             // move list pointers further
@@ -39,7 +36,6 @@ class Solution {
                 }
             }
             current.next = null;
-
             // insert the node
             if (head == null) head = current;
             if (previous != null) previous.next = current;

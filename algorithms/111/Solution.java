@@ -1,21 +1,17 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
 class Solution {
 
     /**
-     * Find minimum depth of the binary tree.
-     *
-     * Time complexity: O(n), where n is the size of the binary tree.
-     * Space complexity: O(n).
-     *
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
-     *
-     * @param root binary tree
-     * @return minimum depth of the binary tree
+     * Time and space complexity: O(n)
      */
     public int minDepth(TreeNode root) {
         if (root == null) return 0;

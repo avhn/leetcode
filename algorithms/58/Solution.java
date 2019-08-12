@@ -1,13 +1,8 @@
 class Solution {
 
     /**
-     * Find length of the last word.
-     *
-     * Time complexity: O(n), where n is length of the string.
-     * Space complexity: O(1).
-     *
-     * @param s String
-     * @return length of the last word
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
     public int lengthOfLastWord(String s) {
         s = s.trim();
