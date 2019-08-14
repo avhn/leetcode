@@ -16,7 +16,7 @@ class Solution {
      * Time and space complexity: O(n)
      */
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) return true;
+        if (head == null) return true;
         ArrayList<ListNode> list = new ArrayList<ListNode>();
         for (; head != null; head = head.next) list.add(head);
         for (int i = 0, j = list.size() - 1; i < j; i++, j--) {
