@@ -1,4 +1,5 @@
 // Check if string is repeated by a substring pattern
+// Note that maximum input size is 10000 chars
 // Time complexity: O(nlogn), where n is length of the string
 // Space complexity: O(1)
 func repeatedSubstringPattern(s string) bool {
