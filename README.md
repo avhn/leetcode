@@ -1,7 +1,7 @@
-## Leetcode
+## Leetcode Problem Solutions
 
-- [Leetcode](https://leetcode.com)
 - [Contributing](./CONTRIBUTING.md)
+
 
 ## File structure
 
