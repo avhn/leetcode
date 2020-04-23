@@ -1,0 +1,11 @@
+package main
+
+// Time complexity, O(n) where n is size of the area
+// Space complexity, O(1)
+func constructRectangle(area int) []int {
+	w := int(math.Sqrt(float64(area)))
+	for area%w != 0 {
+		w--
+	}
+	return []int{area / w, w}
+}
