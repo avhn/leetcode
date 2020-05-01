@@ -23,4 +23,4 @@ As a reminder, a *binary* search tree is a tree that satisfies these constraints
     2. Each node will have value between 0 and 100.
     3. The given tree is a binary search tree.
 
-**Note: This question is the same as 538: https://leetcode.com/problems/convert-bst-to-greater-tree/
+**Note:** This question is the same as 538: https://leetcode.com/problems/convert-bst-to-greater-tree/
