@@ -20,7 +20,7 @@ base-10.
 <pre>
 <b>Input:</b> 7
 <b>Output:</b> 0
-<b>Explanation:<b> 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
+<b>Explanation:</b> 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
 </pre>
 
 **Example 3:**
