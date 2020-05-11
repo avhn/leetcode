@@ -15,7 +15,8 @@ func isSame(s *TreeNode, t *TreeNode) bool {
 			isSame(s.Left, t.Left) && isSame(s.Right, t.Right)
 }
 
-// Time and space complexity: O(n) where n is size of the bigger tree
+// Time complexity, O(n*m) where n and m are length of the trees and m <= n
+// Space complexity, O(n)
 func isSubtree(s *TreeNode, t *TreeNode) bool {
 	return s != nil &&
 		(isSame(s, t) || isSubtree(s.Left, t) || isSubtree(s.Right, t))
