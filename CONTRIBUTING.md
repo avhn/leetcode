@@ -1,5 +1,3 @@
-## Contributing
-
 ### Adding problems
 
 Use branches to commit freely and keep main branch clean.
