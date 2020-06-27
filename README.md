@@ -1,9 +1,4 @@
-## Leetcode Problem Solutions
-
-- [Contributing](./CONTRIBUTING.md)
-
-
-## File structure
+Leetcode problem solutions. File structure below:
 
 <pre>
 ├── algorithms, database, shell
@@ -15,3 +10,4 @@
 ├── CONTRIBUTING.md
 </pre>
 
+Check out [`CONTRIBUTING.md`](./CONTRIBUTING.md) for contributions. 
